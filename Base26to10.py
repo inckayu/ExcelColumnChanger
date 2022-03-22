@@ -1,107 +1,55 @@
 def num(n):
-    if n == "A":
+    if n == "A" or n == "a":
         return "1"
-    elif n == "B":
+    elif n == "B" or n == "b":
         return "2"
-    elif n == "C":
+    elif n == "C" or n == "c":
         return "3"
-    elif n == "D":
+    elif n == "D" or n == "d":
         return "4"
-    elif n == "E":
+    elif n == "E" or n == "e":
         return "5"
-    elif n == "F":
+    elif n == "F" or n == "f":
         return "6"
-    elif n == "G":
+    elif n == "G" or n == "g":
         return "7"
-    elif n == "H":
+    elif n == "H" or n == "h":
         return "8"
-    elif n == "I":
+    elif n == "I" or n == "i":
         return "9"
-    elif n == "J":
+    elif n == "J" or n == "j":
         return "10"
-    elif n == "K":
+    elif n == "K" or n == "k":
         return "11"
-    elif n == "L":
+    elif n == "L" or n == "l":
         return "12"
-    elif n == "M":
+    elif n == "M" or n == "m":
         return "13"
-    elif n == "N":
+    elif n == "N" or n == "n":
         return "14"
-    elif n == "O":
+    elif n == "O" or n == "o":
         return "15"
-    elif n == "P":
+    elif n == "P" or n == "p":
         return "16"
-    elif n == "Q":
+    elif n == "Q" or n == "q":
         return "17"
-    elif n == "R":
+    elif n == "R" or n == "r":
         return "18"
-    elif n == "S":
+    elif n == "S" or n == "s":
         return "19"
-    elif n == "T":
+    elif n == "T" or n == "t":
         return "20"
-    elif n == "U":
+    elif n == "U" or n == "u":
         return "21"
-    elif n == "V":
+    elif n == "V" or n == "v":
         return "22"
-    elif n == "W":
+    elif n == "W" or n == "w":
         return "23"
-    elif n == "X":
+    elif n == "X" or n == "x":
         return "24"
-    elif n == "Y":
+    elif n == "Y" or n == "y":
         return "25"
-    elif n == "Z":
-        return "26"
-    elif n == "a":
-        return "1"
-    elif n == "b":
-        return "2"
-    elif n == "c":
-        return "3"
-    elif n == "d":
-        return "4"
-    elif n == "e":
-        return "5"
-    elif n == "f":
-        return "6"
-    elif n == "g":
-        return "7"
-    elif n == "h":
-        return "8"
-    elif n == "i":
-        return "9"
-    elif n == "j":
-        return "10"
-    elif n == "k":
-        return "11"
-    elif n == "l":
-        return "12"
-    elif n == "m":
-        return "13"
-    elif n == "n":
-        return "14"
-    elif n == "o":
-        return "15"
-    elif n == "p":
-        return "16"
-    elif n == "q":
-        return "17"
-    elif n == "r":
-        return "18"
-    elif n == "s":
-        return "19"
-    elif n == "t":
-        return "20"
-    elif n == "u":
-        return "21"
-    elif n == "v":
-        return "22"
-    elif n == "w":
-        return "23"
-    elif n == "x":
-        return "24"
-    elif n == "y":
-        return "25"
-    elif n == "z":
+    elif n == "Z" or n == "z":
         return "26"
 
 alp = input("変換したいアルファベットを入力してください：")
